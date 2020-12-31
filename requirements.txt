@@ -15,5 +15,5 @@ pylint==2.4.4
 six==1.14.0
 websockets==8.1
 wrapt==1.11.2
-uviloop
+uvloop==0.14.0
 httptools
