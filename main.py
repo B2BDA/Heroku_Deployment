@@ -51,5 +51,5 @@ async def create_user(dataIn : DataIn):
     prediction = model.predict_proba(data)
     return 'There is a probability of '+ str(prediction[0][1]) + '  the employee leaving the org'
 
-if __name__ == '__main__':
-    uvicorn.run(app,host='localhost',port=8000)
+# if __name__ == '__main__':
+#     uvicorn.run(app,host='localhost',port=8000)
